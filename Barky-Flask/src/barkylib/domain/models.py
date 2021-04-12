@@ -18,4 +18,5 @@ class Bookmark:
 
         """
         is this a declarative SQLA model?
+        this seems to align somewhat with the repository folder of the first refactor
         """
