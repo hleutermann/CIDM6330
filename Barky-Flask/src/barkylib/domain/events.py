@@ -21,6 +21,10 @@ class BookmarkAdded(Event):
     title: str
     url: str
     date_added: str
+    """
+    I see date as a formula some places (/domain/commands) and as datetime (/domain/models)
+    Is this going to cause problems
+    """
     bookmark_notes: Optional[str] = None
 
 
