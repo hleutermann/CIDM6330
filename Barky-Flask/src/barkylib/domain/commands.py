@@ -13,10 +13,6 @@ class Command(ABC):
 
 @dataclass
 class AddBookmarkCommand(Command):
-    """
-    This command is a dataclass that encapsulates a bookmark
-    This uses type hints: https://docs.python.org/3/library/typing.html
-    """
     id: int
     title: str
     url: str
