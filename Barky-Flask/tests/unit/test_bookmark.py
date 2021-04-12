@@ -25,6 +25,8 @@ def test_new_bookmark_added_and_edited_times_are_the_same():
 
 def test_new_bookmark_url_is_well_formed():
     # arrange
+    """what does it mean by well formed?
+    """
     created: str = datetime.now().isoformat()
     edited: str = created
 
@@ -43,7 +45,9 @@ def test_that_edit_time_is_newer_than_created_time():
 
     # act
     bookmark = Bookmark(0, "test", "http://www.example/com", None, created, edited)
-
+"""
+should it be example.com? why is the / there
+"""
     bookmark.notes = "Lorem Ipsum"
     hours_addition = random.randrange(1, 10)
     edit_time = datetime.fromisoformat(bookmark.date_edited)
