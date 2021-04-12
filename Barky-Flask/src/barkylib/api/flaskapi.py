@@ -1,3 +1,9 @@
+"""
+In looking at different refactors it appears this correlates wih the flask.api
+Not sure if there is a difference between flask_sqlalchemy and sqlalchemy.
+Also not completely understanding what the bus is vs a repository
+"""
+
 from datetime import datetime
 from sqlalchemy import create_engine
 from flask import Flask, jsonify, request
