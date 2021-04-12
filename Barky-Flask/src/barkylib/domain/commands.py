@@ -1,7 +1,3 @@
-"""
-This module utilizes the command pattern - https://en.wikipedia.org/wiki/Command_pattern - to 
-specify and implement the business logic layer
-"""
 import sys
 from abc import ABC
 from datetime import datetime
