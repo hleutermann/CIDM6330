@@ -36,6 +36,18 @@ def get_bookmark_by_title(self, title):
          return "not found", 404
     return jsonify(result), 200
 
+"""
+tried to incorporate routes from other refactors
+not sure why they were taken out or how thnigs are routed
+"""
+@app.route('/bookmarks/all')
+def all(self):
+    return f'all records' 
+
+@app.route('/bookmarks/first/<property>/<value>/<sort>')
+def many(self, filter, value, sort):
+    pass   
+
 def get_bookmark_by_id(self, title):
     pass
 
