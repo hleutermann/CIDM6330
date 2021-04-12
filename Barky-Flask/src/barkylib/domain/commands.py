@@ -1,3 +1,7 @@
+"""
+so this seems to correlate with the actual functionality of the baseapi.py defs
+"""
+
 import sys
 from abc import ABC
 from datetime import datetime
