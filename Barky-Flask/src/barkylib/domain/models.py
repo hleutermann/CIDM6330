@@ -15,3 +15,7 @@ class Bookmark:
         self.date_added = date_added
         self.date_edited = date_edited
         self.events = []
+
+        """
+        is this a declarative SQLA model?
+        """
